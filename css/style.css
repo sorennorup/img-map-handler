@@ -1,0 +1,59 @@
+
+#overlay {
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+    max-width: 1136px;
+    min-height: 500px;
+    position: absolute;
+    background-color: #f3f1f7;
+    z-index:999;
+}
+
+#text-wrapper {
+    margin: 80px auto; 
+}
+
+#text-wrapper p, 
+#text-wrapper li,
+#text-wrapper h2,
+#text-wrapper h3  {
+   
+    max-width: 668px;
+    margin: 20px auto;
+    padding-left: 40px;
+}
+
+
+ .subject-title {
+    font-size: 2.125rem;
+    font-weight: 300;
+    padding: 0 8.72678%;
+    margin: 0 auto;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+ }
+
+
+.hover-class {
+    background-color: red;
+    position: absolute;
+    z-index: 99999;
+    width: 300px;
+    height: 300px;
+}
+
+#close {
+    cursor: pointer;
+    font-size:40px; 
+    position:absolute; 
+    right: 20px;
+    top: 20px;  
+}
+
+.menu-button.menu-button--close2::after {
+    content: "\e901";
+    position: absolute;
+}
+
+
